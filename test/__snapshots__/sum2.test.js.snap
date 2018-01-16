@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test-suite test-case 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      15,
+      "foo",
+      Object {
+        "key": "value",
+      },
+    ],
+  ],
+}
+`;
