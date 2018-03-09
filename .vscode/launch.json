@@ -10,8 +10,7 @@
       "request": "launch",
       "program": "${workspaceRoot}/node_modules/jest/bin/jest.js",
       "args": [
-        "--runInBand",
-        // "--config=${workspaceRoot}/ui/jest.config.js",
+        // "--runInBand",
         "--watch",
         "--coverage",
       ],
