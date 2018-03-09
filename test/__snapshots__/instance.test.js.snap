@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`instance 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+    Array [],
+    Array [],
+  ],
+}
+`;
+
+exports[`instance 2`] = `
+Array [
+  undefined,
+  mockConstructor {},
+  mockConstructor {},
+]
+`;
