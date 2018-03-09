@@ -7,6 +7,6 @@ new foo();
 test('instance', () => {
   expect(foo).toMatchSnapshot();
   expect(foo.mock.instances).toMatchSnapshot();
-  console.log(foo.mock.instances.length);
+  // console.log(foo.mock.instances.length);
 });
 

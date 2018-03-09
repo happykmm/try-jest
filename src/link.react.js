@@ -30,7 +30,7 @@ export default class Link extends React.Component {
     return (
       <a
         className={this.state.class}
-        href={this.props.page || '#'}
+        href={this.props.page}
         onMouseEnter={this._onMouseEnter}
         onMouseLeave={this._onMouseLeave}
       >

@@ -13,6 +13,7 @@
         "--runInBand",
         // "--config=${workspaceRoot}/ui/jest.config.js",
         "--watch",
+        "--coverage",
       ],
       "runtimeArgs": [
       ],

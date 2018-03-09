@@ -15,6 +15,6 @@ const contacts = [
   }
 ];
 
-export const searchContact = (term = '') => {
+export const searchContact = (term) => {
   return _.filter(contacts, c => _.includes(c.name, term));
 }
